@@ -8,4 +8,11 @@ class Sequence
 {
 public:
 Sequence(string filename);
+~Sequence();
+int length();
+int numberOf(char base);
+string longestConsecutive();
+string longestRepeated();
+};
+#endif
 
