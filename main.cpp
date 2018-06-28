@@ -4,14 +4,14 @@
 using namespace std;
 int main()
 {
-Sequence A("dna.txt");
-cout<<"length"<<A.length()<<endl;
-cout<<"A"<<A.numberOf('A')<<endl;
-cout<<"C"<<A.numberOf('C')<<endl;
-cout<<"T"<<A.numberOf('T')<<endl;
-cout<<"G"<<A.numberOf('G')<<endl;
-cout<<A.longestConsecutive()<<endl;
-cout<<A.longestRepeated()<<endl;
+Sequence S("dna.txt");
+cout<<"length"<<S.length()<<endl;
+cout<<"A"<<S.numberOf('A')<<endl;
+cout<<"C"<<S.numberOf('C')<<endl;
+cout<<"T"<<S.numberOf('T')<<endl;
+cout<<"G"<<S.numberOf('G')<<endl;
+cout<<S.longestConsecutive()<<endl;
+cout<<S.longestRepeated()<<endl;
 
 return 0;
 }
