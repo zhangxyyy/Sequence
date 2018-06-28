@@ -1,4 +1,4 @@
-jinclude"Sequence.h"
+include"Sequence.h"
 #include<iostream>
 #include<string>
 #include<fstream>
