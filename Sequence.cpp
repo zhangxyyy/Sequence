@@ -26,8 +26,9 @@ int l=dna.length();
 int n=0;
 for(int i=0;i<l;i++)
 {if(dna[i]==base)
-n++;return n;
-}}
+n++;
+}
+ return;}
 string Sequence::longestConsecutive()
 {char STr;
  char base;
