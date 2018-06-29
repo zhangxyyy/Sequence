@@ -13,6 +13,7 @@ int length();
 int numberOf(char base);
 string longestConsecutive();
 string longestRepeated();
+string dna;
 };
 #endif
 
