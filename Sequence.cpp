@@ -11,17 +11,16 @@ ifstream file(filename.c_str(),ios::in);
 string d;
 while(getline(file,d))
 dna+=d;
-return 0;
 }
 Sequence::~Sequence()
-{return 0;
+{
 }
-Sequence::int length()
+int Sequence::length()
 {
 int l=dna.length()
 return l;
 }
-Sequence::int numberOf(char base)
+int Sequence::numberOf(char base)
 {
 int l=dna.length();
 int n=0;
@@ -30,7 +29,8 @@ for(int i=0;i<l;i++)
 n++;return n;
 }}
 string Sequence::longestConsecutive()
-{ char base;
+{char STr;
+ char base;
 int max=0;
 int add=1;
 int L=STr.length();
@@ -46,7 +46,8 @@ add=1;
 }
 }
 string longestcon(max,base);
-return string longest(max,base);
+return longestcon;
 }
 string Sequence::longestRepeated()
-{ }
+{return 0;
+ }
