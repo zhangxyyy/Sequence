@@ -2,7 +2,8 @@
 #include<iostream>
 #include<string>
 #include<fstream>
-#include<cstring>
+#include<cstrin>
+#include<string.h>
 using namespace std;
 
 Sequence::Sequence(string filename)
@@ -17,8 +18,9 @@ Sequence::~Sequence()
 }
 int Sequence::length()
 {
-int l=dna.length()
-return l;
+int l=dna.length();
+cout<<l<<endl;
+return 0;
 }
 int Sequence::numberOf(char base)
 {
@@ -50,4 +52,4 @@ return longestcon;
 }
 string Sequence::longestRepeated()
 {return 0;
- }
+}
