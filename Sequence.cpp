@@ -19,7 +19,7 @@ strcpy(z,_filename.c_str());
 	line++;}
 	q=m-line;}
 
-Sequence::length()
+int Sequence::length()
 {
 cout<<q<<endl;
 return 0;
