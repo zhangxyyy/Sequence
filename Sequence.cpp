@@ -9,7 +9,7 @@ Sequence::Sequence(string filename)
 {
 cin>>filename;
 _filename=filename;
-strcpy(z,_filename.c_str());
+strcpy(z,_filename.c_str());D
 ifstream file(z);
 int m=0;
 int line=0;
@@ -29,15 +29,7 @@ return 0;
 }
 int Sequence::numberOf(char base)
 {
- ifstream file(z);
-int k=0;char s;
-while (file.get(s))
-{if (s==base)
-k++;
-else
-continue;}
-cout<<base<<k<<endl;
-return 0;}
+return 0;
 string Sequence::longestConsecutive()
 {char b="0";
  char base;
