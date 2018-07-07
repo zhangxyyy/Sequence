@@ -2,36 +2,44 @@
 #include<iostream>
 #include<string>
 #include<fstream>
-#include<cstrin>
 #include<string.h>
 using namespace std;
 
 Sequence::Sequence(string filename)
 {
-ifstream file(filename.c_str(),ios::in);
-string d;
-while(getline(file,d))
-dna+=d;
-}
+cin>>filename;
+_filename=filename;
+strcpy(z,_filename.c_str());
+ifstream file(z);
+int m=0;
+int line=0;
+char s;
+while(file.get(s))
+{if (s=='\n')
+line++;}
+q=m-line;}
+
 Sequence::~Sequence()
 {
 }
 int Sequence::length()
 {
-int l=dna.length();
-cout<<l<<endl;
+cout<<q<<endl;
 return 0;
 }
 int Sequence::numberOf(char base)
 {
-int l=dna.length();
-int n=0;
-for(int i=0;i<l;i++)
-{if(dna[i]==base)
-n++;return n;
-}}
+ ifstream file(z);
+int k=0;char s;
+while (file.get(s))
+{if (s==base)
+k++;
+else
+continue;}
+cout<<base<<k<<endl;
+return 0;}
 string Sequence::longestConsecutive()
-{char STr;
+{char b="0";
  char base;
 int max=0;
 int add=1;
