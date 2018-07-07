@@ -7,20 +7,19 @@ using namespace std;
 
 Sequence::Sequence(string filename)
 {
-cin>>filename;
-_filename=filename;
-strcpy(z,_filename.c_str());D
-ifstream file(z);
-int m=0;
-int line=0;
-char s;
-while(file.get(s))
-{if (s=='\n')
-line++;}
-q=m-line;}
+ cin>>filename;
+    _filename=filename;
+strcpy(z,_filename.c_str());
+  ifstream file(z);
+   int m=0;
+   int line=0;
+	char s;
+	while(file.get(s))
+	{if (s=='\n')
+	line++;}
+	q=m-line;}
 
-
-int Sequence::length()
+Sequence::length()
 {
 cout<<q<<endl;
 return 0;
