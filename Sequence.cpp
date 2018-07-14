@@ -264,7 +264,7 @@ string Sequence::longestRepeated()
 
 
 
-int Sequence::count(const char* c1, const char* c2)
+/*int Sequence::count(const char* c1, const char* c2)
 
 {
 
@@ -286,4 +286,4 @@ int Sequence::count(const char* c1, const char* c2)
 
 }
 
-
+*/
